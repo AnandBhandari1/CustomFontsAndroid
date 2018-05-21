@@ -18,6 +18,7 @@
 <p>&nbsp;</p>
 <h2>Java Code</h2>
  
+ <pre>
 int[] fonts = new int[15];
         fonts[0] = R.font.font1;
         fonts[1] = R.font.font2;
@@ -43,6 +44,8 @@ int[] fonts = new int[15];
 
         Typeface typeface = ResourcesCompat.getFont(activity, randomfnts);
         post_content.setTypeface(typeface);
+	
+	</pre>
 	
 <p>&nbsp;</p>
 <p>I have used <strong>post_content</strong> which is my text view, you can find it by findviewbyid</p>
