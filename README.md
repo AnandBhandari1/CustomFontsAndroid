@@ -17,7 +17,8 @@
 <p id="BWVpxsg"><img class="alignnone size-full wp-image-426 " src="https://learnoye.com/wp-content/uploads/2018/05/img_5b018cda3315c.png" alt="" /></p>
 <p>&nbsp;</p>
 <h2>Java Code</h2>
-<pre class="lang:java decode:true ">   int[] fonts = new int[15];
+ 
+int[] fonts = new int[15];
         fonts[0] = R.font.font1;
         fonts[1] = R.font.font2;
         fonts[2] = R.font.font3;
@@ -41,12 +42,13 @@
 
 
         Typeface typeface = ResourcesCompat.getFont(activity, randomfnts);
-        post_content.setTypeface(typeface);</pre>
+        post_content.setTypeface(typeface);
+	
 <p>&nbsp;</p>
 <p>I have used <strong>post_content</strong> which is my text view, you can find it by findviewbyid</p>
 <p>However there is static way to change font</p>
 
-<pre class="lang:xhtml decode:true">
+
 <TextView
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -54,7 +56,7 @@
     android:fontFamily="@font/font1"
 android:id="@+id/post_content"
     />
-    </pre>
+   
     
 <p>Android provides an alternative way by using XML syntax.</p>
 <p>Just like SRC we can reference fonts also</p>
