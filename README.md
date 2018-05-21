@@ -45,17 +45,22 @@
 <p>&nbsp;</p>
 <p>I have used <strong>post_content</strong> which is my text view, you can find it by findviewbyid</p>
 <p>However there is static way to change font</p>
-<pre class="lang:xhtml decode:true">&lt;TextView
+
+<pre class="lang:xhtml decode:true">
+<TextView
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:text="my demo text"
     android:fontFamily="@font/font1"
 android:id="@+id/post_content"
-    /&gt;</pre>
+    />
+    </pre>
+    
 <p>Android provides an alternative way by using XML syntax.</p>
 <p>Just like SRC we can reference fonts also</p>
 
-<img class="wp-image-429 size-full" src="https://learnoye.com/wp-content/uploads/2018/05/img_5b018ed2788a8.png" alt="How to Use Custom Fonts Android, two easy methods" width="651" height="337" /> How to Use Custom Fonts Android, two easy methods
+<img class="wp-image-429 size-full" src="https://learnoye.com/wp-content/uploads/2018/05/img_5b018ed2788a8.png" alt="How to Use Custom Fonts Android, two easy methods" width="651" height="337" />
+
 
 <p id="mRIbvdp"> </p>
 <p>&nbsp;</p>
