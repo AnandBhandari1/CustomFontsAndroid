@@ -10,13 +10,6 @@
 	<li>thats it.</li>
 </ol>
 <h2>Custom Fonts Android Details:</h2>
-<h2>Method - 1</h2>
-<h2>Using Asset folder</h2>
-<p>Step -1 :</p>
-<p>Download Google fonts in asset folder (</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<h2>Method - 2</h2>
 <h2>By Creating font folder under res folder</h2>
 <p>I am going to create random fonts for text my post content.</p>
 <p>&nbsp;</p>
